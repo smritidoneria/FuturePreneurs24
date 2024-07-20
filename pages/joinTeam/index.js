@@ -93,7 +93,7 @@ const JoinTeam = ({ teamCode: propTeamCode }) => {
         setShowDialog(true); // Show the dialog box
       } else {
         showMessage('Team code not found. Please try again.');
-      setisLoading(fasle);
+      setisLoading(false);
 
       }
     } catch (error) {

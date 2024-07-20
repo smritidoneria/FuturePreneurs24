@@ -35,7 +35,7 @@ export default function CountdownTimer({ targetDate }){
 
   return (
     <div className="text-white flex flex-col w-fit">
-      <div className="font-bold text-3xl my-4 self-center max-sm:text-2xl">Registration Closed</div>
+      <div className="font-bold text-3xl my-4 self-center max-sm:text-2xl">Registration Open!</div>
       {/* <div className='flex font-black text-3xl justify-evenly max-sm:text-2xl'>
       <div className='flex flex-col'>{timeRemaining.days}<span className='text-base font-normal'>DAYS</span></div>:
       <div className='flex flex-col'>{timeRemaining.hours}<span className='text-base font-normal'>HOURS</span></div>:

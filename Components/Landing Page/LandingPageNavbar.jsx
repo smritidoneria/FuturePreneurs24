@@ -21,7 +21,7 @@ export default function LandingPageNavbar() {
       </div>
       <div className="flex justify-between items-center font-medium w-3/4 md:hidden">
       
-        <Image src={eCellLogo} alt="eCellLogo" className="h-1/2 w-auto align-start" />
+       
         <LoginButton />
       <div className='flex flex-col'>
         {/* Hamburger menu icon */}

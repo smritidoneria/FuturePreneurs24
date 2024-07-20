@@ -187,17 +187,17 @@ export default function LeaderDashboard() {
           </div>
         )}
 
-        {/* this is link to teamCode, if 4 members do'nt show this.  */}
-        {/* <Link className="className='text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2'" href="/teamCode"> Add Members </Link> */}
+         this is link to teamCode, if 4 members do'nt show this.  
+         <Link className="className='text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2'" href="/teamCode"> Add Members </Link> 
         {/* {teamMembersData.length < 4 && (
-          <Link
-            className="className='text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2'"
-            href="/teamCode"
-          >
-            {" "}
-            Add Members{" "}
-          </Link>
-        )} */}
+          // <Link
+          //   className="className='text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2'"
+          //   href="/teamCode"
+          // >
+          //   {" "}
+          //   Add Members{" "}
+          // </Link>
+        )}  */}
         <div className="flex flex-wrap justify-center">
           {teamMembersData.map((el) => {
             return (
@@ -216,22 +216,14 @@ export default function LeaderDashboard() {
             );
           })}
 
-          {/* </div> */}
-          {/* <div className="flex flex-wrap justify-center mt-4"> */}
+           </div> 
+          <div className="flex flex-wrap justify-center mt-4"> 
         </div>
       </div>
 
       <div className="flex justify-center mt-4">
-        {/* <button
-          className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
-          onClick={() => {
-            router.push("/levels/qualifier");
-          }}
-        >
-          Start Quiz
-        </button> */}
-        {/* <DeleteTeamButton onClick={() => deleteTeam()} /> */}
-
+       
+         <DeleteTeamButton onClick={() => deleteTeam()} /> 
         {isQualified && (
           <div className="flex flex-col text-white items-center border p-2 rounded-xl my-2">
             <h1 className="text-lg font-bold">
